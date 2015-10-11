@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+body{
+	font-family: 'Montserrat', sans-serif;
+	height: 9000px;
+}
+#header{
+	font-weight: 600;
+	background-color: #777da7;
+	color: #232838;
+	font-size: 100px;
+	text-align: center;
+}
+.navbar-inverse .navbar-nav>.active>a{
+	color: red;
+}
+.navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+	color: aliceblue;
+}
+
+.navbar, .navbar-brand{
+	background-color: #232838;
+	color: aliceblue !important;
+	border-radius: 0px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
+.navbar-nav{
+	color: aliceblue !important;
+}
+#myNavbar{
+	color:green !important;
+}
