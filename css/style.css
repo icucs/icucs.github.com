@@ -12,7 +12,6 @@ body{
 .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
 	color: aliceblue;
 }
-
 .navbar, .navbar-brand{
 	background-color: #232838;
 	color: aliceblue !important;
@@ -25,4 +24,17 @@ body{
 }
 #myNavbar{
 	color:green !important;
+}
+.affix{
+	left: 0px;
+	right: 0px;
+	top: 0px;
+}
+.row{
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: floralwhite;
+}
+.nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover{
+	background-color: floralwhite;
 }
