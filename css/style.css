@@ -2,13 +2,9 @@
 body{
 	font-family: 'Montserrat', sans-serif;
 	height: 9000px;
-}
-#header{
-	font-weight: 600;
-	background-color: #777da7;
-	color: #232838;
-	font-size: 100px;
-	text-align: center;
+	margin: 0;
+	padding: 0;
+	width: 100%;
 }
 .navbar-inverse .navbar-nav>.active>a{
 	color: red;
