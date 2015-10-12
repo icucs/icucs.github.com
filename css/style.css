@@ -50,6 +50,8 @@ body{
 	background-color: #232838;
 	padding-top: 0;
 	margin-top: 0;
+	margin-left: 30px;
+	margin-right: 30px;
 }
 #head{
 	height: 60px;
@@ -74,9 +76,7 @@ ul.nav.nav-tabs.nav-justified>li>a{
 ul.nav.nav-tabs.nav-justified>li>a:hover,ul.nav.nav-tabs.nav-justified>li.active>a{
 	color: #232838;
 }
-.col-sm-12{
-	height: 200px!important;
-}
+
 footer{
 	height: 100px;
 	background-color: #4C5C68;
