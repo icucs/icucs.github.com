@@ -37,7 +37,7 @@ body{
 	background-color: #DBDBDB;
 }
 .nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover{
-	border:1px solid #DBDBDB;
+	border:1px solid rgb(219, 219, 219);
 }
 #himg{
 	background: url("../images/Internships-Wordle-v3.png");
@@ -89,4 +89,17 @@ footer>.container{
 .nav-tabs.nav-justified>li>a {
     border-bottom: 0px !important;
     border-radius: 4px 4px 0 0;
+}
+pre{
+	background-color: #f4f4f4;
+	font-family:inherit;
+	font-style: italic;
+	border-radius: 15px;
+}
+blockquote{
+	padding-top: 10px;
+}
+#obj{
+	left: 50%;
+	font-size: 18px;
 }
