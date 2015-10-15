@@ -4,50 +4,27 @@ body{
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	background-color: #232838;
 }
-.navbar-inverse .navbar-nav>.active>a{
-	color: red;
-}
-.navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
-	color: aliceblue;
-}
-.navbar, .navbar-brand{
-	background-color: #232838;
-	color: aliceblue !important;
-	border-radius: 0px;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 600;
-}
-.navbar-nav{
-	color: aliceblue !important;
-}
-#myNavbar{
-	color:green !important;
-}
-.affix{
-	left: 0px;
-	right: 0px;
-	top: 0px;
-}
+
 .container-fluid{
-	background-color: #DBDBDB;
+	background-color: white;
+	color: rgb(249,83,23);
 }
 .nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover{
-	background-color: #DBDBDB;
+	background-color: white;
+	border-top: 1px solid rgb(222,22,6);
 }
 .nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover{
-	border:1px solid rgb(219, 219, 219);
+	border:1px solid white;
 }
 #himg{
-	background: url("../images/Internships-Wordle-v3.png");
+	background: url("../images/gjdsghjge.jpg");
 	height: 300px;
 	width: auto;
 	position: relative;
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-color: #232838;
 	padding-top: 0;
 	margin-top: 0;
 	margin-left: 30px;
@@ -56,31 +33,30 @@ body{
 #head{
 	height: 60px;
 	padding-top: 0;
-	background-color: #232838;
 	padding-bottom: 0;
 	margin-bottom: 0;
 	margin-top: 0;
-	border-bottom: 1px solid #777da7;
-	color: aliceblue;
+	color: rgb(249,83,23);
 }
 #head>h1{
 	margin-top: 0;
 	padding-top: 10px;
 }
 ul.nav.nav-tabs.nav-justified{
-	background-color:#4C5C68;
+	background-color:rgb(222,22,6);
 }
 ul.nav.nav-tabs.nav-justified>li>a{
 	color: aliceblue;
 }
 ul.nav.nav-tabs.nav-justified>li>a:hover,ul.nav.nav-tabs.nav-justified>li.active>a{
-	color: #232838;
+	color: rgb(222,22,6);
 }
 
 footer{
 	height: 100px;
-	background-color: #4C5C68;
-	color: aliceblue;
+	border-top: 1px solid red; 
+	background-color: rgb(249,83,23);
+	color: white;
 }
 footer>.container{
 	padding-top: 20px;
