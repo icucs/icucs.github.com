@@ -4,6 +4,7 @@ body{
 	margin: 0;
 	padding: 0;
 	width: 100%;
+	background: linear-gradient(to right,rgb(251,251,254),rgb(250,251,254),white,rgb(250,251,254),rgb(251,251,254));
 }
 
 .container-fluid{
@@ -25,8 +26,9 @@ body{
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
-	padding-top: 0;
+	padding-top: 0px;
 	margin-top: 0;
+	margin-bottom:0;
 	margin-left: 30px;
 	margin-right: 30px;
 }
@@ -72,6 +74,7 @@ pre{
 	font-family:inherit;
 	font-style: italic;
 	border-radius: 15px;
+	border:1px white;
 }
 blockquote{
 	padding-top: 10px;
