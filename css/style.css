@@ -83,3 +83,14 @@ blockquote{
 	left: 50%;
 	font-size: 18px;
 }
+.carousel{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.carousel img{
+	height:500px!important;
+}
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
